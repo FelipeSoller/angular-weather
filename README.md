@@ -1,28 +1,52 @@
-# JvWeather
+<h1 align="center">
+Angular Weather <br>
+</h1>
+<h3 align="center"> Aplicativo Web desenvolvido através do tutorial disponibilizado no Bootcamp de Angular da Digital Innovation One em parceria com a Avanade </h3>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+## :bookmark_tabs: Índice
 
-## Development server
+- [Sobre](#sobre)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<a id="sobre"></a>
 
-## Code scaffolding
+## :bookmark: Sobre
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Aqui está uma rápida visão geral de como o Aplicativo Web foi desenvolvido:
+<br>
+- Foi desenvolvido utilizando Angular;
+- Utilização API da OpenWeather para busca de dados climáticos das cidades;
+- Utilização do NGRX-Store para gerenciamento de estado global baseado em RxJS para aplicativos Angular, inspirado no Redux;
+- Utilização de componentes do Angular Material no layout do aplicação; 
+- Utilização do NGX Bootstrap para input de busca com autocomplete;
+<br>
+Com isso, o usuário deve conseguir obter dados climáticos de cidades do mundo, além da possibilidade de criar uma lista de cidades favoritas;
 
-## Build
+<a id="tecnologias-utilizadas"></a>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## :rocket: Tecnologias Utilizadas
 
-## Running unit tests
+O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Angular](https://angular.io/)
+- [Angular Material](https://material.angular.io/)
+- [NGRX-Store](https://ngrx.io/guide/store)
+- [NGX-Bootstrap](https://valor-software.com/ngx-bootstrap/#/)
+- [Angular Material](https://material.angular.io/)
+- [Angular Material](https://material.angular.io/)
 
-## Running end-to-end tests
+## :computer: WEB
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+<h1 align="center">    
+    <img alt="Web" src="https://github.com/FelipeSoller/angular-weather/blob/main/Angular-Weather.gif" width="900px">    
+</h1>
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# angular-weather
+---
+
+<h4 align="center">
+    Desenvolvido por <a href="https://www.linkedin.com/in/felipesoller/" target="_blank">Felipe Soller</a>
+</h4>
