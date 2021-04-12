@@ -1,4 +1,4 @@
-import { Action, createReducer, on } from "@ngrx/store";
+import { createReducer, Action, on } from '@ngrx/store'
 
 import * as fromHomeActions from './home.actions';
 
@@ -16,6 +16,7 @@ export const homeInitialState: HomeState = {
 
 const reducer = createReducer(
   homeInitialState,
+  on(fromHomeActions.clearHomeState, () => homeInitialState),
   on(fromHomeActions.loadCurrentWeather, state => ({
     ...state,
     loading: true,
@@ -30,7 +31,7 @@ const reducer = createReducer(
     ...state,
     loading: false,
     error: true,
-  }))
+  })),
 );
 
 export function homeReducer(state: HomeState | undefined, action: Action): HomeState {
